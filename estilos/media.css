@@ -20,7 +20,7 @@
         height: 100%;
     }
 
-    #login > #form {
+    #login > #formu {
         float: right;
         width: 70%;
     }
@@ -31,18 +31,22 @@
         background-image: linear-gradient(to top, #40a09d, #5f2c82);
     }
 
-     #login {
+    #login {
         width: 950px;
     }
 
     #login > #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
-    #login > #form {
-        float: right;
+    #login > #formu {
+        float: left;
         width: 50%;
+    }
+
+    #formu > p {
+    font-size: 1.1em;
     }
 }

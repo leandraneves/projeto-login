@@ -50,7 +50,16 @@ main {
     height: 200px;
 }
 
-#login > #form {
+#login > #formu {
     display: block;
     padding: 10px;
+}
+
+#formu > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formu > p {
+    font-size: 0.8em;
 }
